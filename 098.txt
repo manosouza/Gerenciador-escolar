@@ -1,0 +1,4 @@
+Aluno: joao, Notas: [7.0, 5.0, 5.0], Média: 5.67
+Aluno: kleoson, Notas: [6.0], Média: 6.00
+Aluno: mateusd 8 6 4, Notas: [7.0], Média: 7.00
+Aluno: mate, Notas: [9.0], Média: 9.00
