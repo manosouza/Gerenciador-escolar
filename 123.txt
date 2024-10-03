@@ -1,6 +1,0 @@
-turma 123 criada
-Aluno: jao, Notas: [6.0, 7.0, 8.0], Media: 7.00
-
-Aluno: angelo, Notas: [2.0, 4.0, 7.0], Media: 4.33
-
-Aluno: ana, Notas: [7.0, 8.0, 10.0], Média: 8.33
