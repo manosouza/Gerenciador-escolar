@@ -1,6 +1,2 @@
-
-Aluno: joao, Notas: [6.0, 8.0, 9.0], Média: 7.67
-
-Aluno: marcola, Notas: [8.0, 9.0, 9.0], Média: 8.67
-
-Aluno: ana, Notas: [5.0, 4.0, 8.0], Média: 5.67
+Aluno: joao, Notas: [6.0, 7.0, 9.0], Média: 7.33
+Aluno: ana, Notas: [5.0, 9.0, 3.0], Média: 5.67
