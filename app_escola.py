@@ -14,17 +14,19 @@ musica = input("Digite um número de 1 a 3 para ouvir uma música enquanto traba
 match musica:
     case '1':
          pygame.mixer.music.load("musica_de_elevador.mp3")
+         pygame.mixer.music.play(-1)  # -1 para repetir a música indefinidamente
     case '2': 
         pygame.mixer.music.load("Canon_in_D.mp3")
+        pygame.mixer.music.play(-1)  
     case '3': 
         pygame.mixer.music.load("The_Way_Home.mp3")
+        pygame.mixer.music.play(-1)  
     case '4': 
         pygame.mixer.music.load("musica_do_mine.mp3")
+        pygame.mixer.music.play(-1)  
     case x if x != '1' and '2' and '3':
         print('Valor inserido inválido')
 
-
-pygame.mixer.music.play(-1)  # -1 para repetir a música indefinidamente
 
 print("\n##Gerenciador Escolar##\n")
 
@@ -124,8 +126,7 @@ match opcao:
                             print(f"As notas do aluno {aluno_para_editar} foram atualizadas.")
                         else:
                             print("Aluno não encontrado.")  # Se o aluno não existir, exibe uma mensagem de erro
-
-                                                                                        
+                                                                 
                     case '4':
                         print('Excluindo aluno...')
                         time.sleep(1)
@@ -161,10 +162,7 @@ match opcao:
                                     arquivo.write(f"Aluno: {aluno}, Notas: {dados['notas']}, Média: {dados['média']:.2f}\n")
                         else:
                             print("Aluno não encontrado.")  # Exibe mensagem de erro se o aluno não for encontrado
-
-
-
-                                                                        
+                                              
                     case '5':
                         print("Progrma finalizado!")
                         break
@@ -176,7 +174,6 @@ match opcao:
             print("Turma não encontrada!")
     
                     
-                
     case '3': #para excluir turma
         turma = input('Qual turma você deseja excluir? ')
         print("excluindo turma...")
